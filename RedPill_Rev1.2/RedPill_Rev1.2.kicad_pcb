@@ -49,7 +49,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Red")
+				(color "#831212FF")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -69,7 +69,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Red")
+				(color "#831212FF")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -165,7 +165,7 @@
 	(net 39 "/PA0")
 	(net 40 "/R_LED")
 	(net 41 "/PA1")
-	(net 42 "Net-(U1-VI)")
+	(net 42 "/REG_VIN")
 	(net 43 "unconnected-(J2-Pin_2-Pad2)")
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -2557,7 +2557,7 @@
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 42 "Net-(U1-VI)")
+			(net 42 "/REG_VIN")
 			(pintype "passive")
 			(uuid "b814495d-bd34-4177-bcb2-b1ac06fa8f80")
 		)
@@ -4162,9 +4162,6 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "Pin_4")
-			(pintype "passive")
 			(uuid "f42c7132-fee4-4681-8d82-442be92aab61")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
@@ -4583,7 +4580,7 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 42 "Net-(U1-VI)")
+			(net 42 "/REG_VIN")
 			(pintype "passive")
 			(uuid "7386a7b3-97d4-447d-a3f9-f11532cfae0c")
 		)
@@ -5454,7 +5451,7 @@
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 42 "Net-(U1-VI)")
+			(net 42 "/REG_VIN")
 			(pinfunction "VI")
 			(pintype "power_in")
 			(uuid "5a34aedb-dd73-4b9c-bc40-2bd200998d16")
